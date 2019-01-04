@@ -5,7 +5,7 @@ def hogehoge(a, b):
     if a < b:
         return a + b
     else:
-        return a - b
+        return a + b
 
 
 if __name__ == "__main__":
