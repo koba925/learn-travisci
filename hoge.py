@@ -12,6 +12,6 @@ def pogepoge(a):
     return 2 * a
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     print(hogehoge(5, 2))
     print(pogepoge(3))
