@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 
 import unittest
-from hoge import hogehoge, pogepoge
+from hoge import hogehoge, pogepoge, mogemoge
 
 
 class TestHoge(unittest.TestCase):
@@ -11,6 +11,9 @@ class TestHoge(unittest.TestCase):
 
     def test_pogepoge(self):
         self.assertEqual(pogepoge(3), 6)
+
+    def test_mogemoge(self):
+        self.assertEqual(mogemoge(3), 7)
 
 
 if __name__ == "__main__":
